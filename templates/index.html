@@ -1,0 +1,68 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Tier Men</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Top Tier men</h1>
+    <p>Maintaining long-term discipline and motivation can be challenging, but having role models can provide<br>
+        that much-needed daily inspiration to keep you pushing forward. This collection presents individuals <br>
+        who have influenced my journey through their content, and they have the power to transform lives. By <br>
+        sharing this, I hope to guide other young individuals striving for greatness and help them find the  <br>
+        motivation they need to continue on their journey.</p>
+
+
+    <div class="individuals">
+        {% for person in individuals %}
+            <div class="individual" id="{{ person.name }}">
+                <img src="{{ url_for('static', filename=person.image) }}" alt="{{ person.name }}">
+                <h2>{{ person.name }}</h2>
+                <p>{{ person.profession }}</p>
+                <p>Net Worth: {{ person.net_worth }}</p>
+                <p>Books: {{ person.books|join(', ') }}</p>
+                <ul class="social-links">
+                    <li><a href="{{ person.twitter }}">Twitter</a></li>
+                    <li><a href="{{ person.youtube }}">YouTube</a></li>
+                    <li><a href="{{ person.instagram }}">Instagram</a></li>
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
+<!-- templates/index.html -->
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Individuals Who Helped Me</title>-->
+<!--    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Individuals Who Helped Me</h1>-->
+<!--    <div class="individuals">-->
+<!--        {% for person in individuals %}-->
+<!--            <div class="individual" id="{{ person.name }}">-->
+<!--                <div class="individual-image">-->
+<!--                    <img src="{{ url_for('static', filename=person.image) }}" alt="{{ person.name }}">-->
+<!--                    <div class="individual-info">-->
+<!--                        <h3>{{ person.profession }}</h3>-->
+<!--                        <p>Net Worth: {{ person.net_worth }}</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <h2>{{ person.name }}</h2>-->
+<!--                <p>Books: {{ person.books|join(', ') }}</p>-->
+<!--                <ul class="social-links">-->
+<!--                    <li><a href="{{ person.twitter }}">Twitter</a></li>-->
+<!--                    <li><a href="{{ person.youtube }}">YouTube</a></li>-->
+<!--                    <li><a href="{{ person.instagram }}">Instagram</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
