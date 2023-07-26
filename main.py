@@ -15,12 +15,12 @@ def index():
             'books': ["Atomic Habits by James Clear",
                       "The Way of the Superior Man by David Deida",
                       "Meditations by Marcus Aurelius"],
-            "Social Media": {
-                "Twitter": "https://twitter.com/GadzhiIman",
-                "YouTube": "https://www.youtube.com/c/ImanGadzhi",
-                "Instagram": "https://www.instagram.com/imangadzhi"
-            },
-            "Image": "iman.jpg",
+            
+            "Twitter": "https://twitter.com/GadzhiIman",
+            "YouTube": "https://www.youtube.com/c/ImanGadzhi",
+            "Instagram": "https://www.instagram.com/imangadzhi",
+            "image": "imang.jpg"
+           
         },
         {
             'name': 'Steven Bartlett',
@@ -75,22 +75,7 @@ def index():
             'instagram': 'https://www.instagram.com/lukebelmar',
             'image': 'luke.jpg'
         },
-        {
-            "Name": "Iman Gadzhi",
-            "Profession": "Entrepreneur and digital marketer",
-            "Net worth": "Estimated at $50 million",
-            "Books": [
-                "Atomic Habits by James Clear",
-                "The Way of the Superior Man by David Deida",
-                "Meditations by Marcus Aurelius"
-            ],
-            "Social Media": {
-                "Twitter": "https://twitter.com/GadzhiIman",
-                "YouTube": "https://www.youtube.com/c/ImanGadzhi",
-                "Instagram": "https://www.instagram.com/imangadzhi"
-            },
-            "Image": "iman.jpg"
-        },
+        
         {
             'name': 'Umar Ashraf',
             'profession': 'Stock trader, entrepreneur, and coach',
@@ -99,7 +84,7 @@ def index():
             'twitter': 'https://twitter.com/umarashraf',
             'youtube': 'https://www.youtube.com/channel/UCir8ZEhgIOLY__2tN1Pi0ig',
             'instagram': 'https://www.instagram.com/umarashraf',
-            'image': 'umar.png'
+            'image': 'umar.jpg'
         },
         {
             'name': 'Bedros Keuilian',
@@ -130,7 +115,7 @@ def index():
             'twitter': 'https://twitter.com/Codie_Sanchez',
             'youtube': 'https://www.youtube.com/c/CodieSanchez',
             'instagram': 'https://www.instagram.com/codiesanchez',
-            'image': 'codie.jpg'
+            'image': 'codie.png'
         },
         {
             'name': 'Jordan Welch',
@@ -144,9 +129,9 @@ def index():
         },
         {
             'name': 'Michael Thurston',
-            'profession': 'Personal trainer, fitness guru, and entrepreneur',
+            'profession': 'Personal trainer and entrepreneur',
             'net_worth': 'Unknown',
-            'books': ['None'],
+            
             'twitter': 'https://twitter.com/thethurstonator',
             'youtube': 'https://www.youtube.com/c/MikeThurston',
             'instagram': 'https://www.instagram.com/mikethurston',
@@ -157,7 +142,7 @@ def index():
             'name': 'michael huddleston',
             'profession': 'Investor, Fx trader',
             'net_worth': 'unknown',
-            # 'books': ['Book 1', 'Book 2'],
+            'books': ['Trading in the zone - mark Douglas'],
             'twitter': 'https://twitter.com/I_Am_The_ICT',
             'youtube': 'https://www.youtube.com/@InnerCircleTrader',
             # 'instagram': 'https://www.instagram.com/tate_brothers',
@@ -166,7 +151,7 @@ def index():
         {
             'name': 'Dan Lok',
             'profession': 'Entrepreneur, author, speaker, podcaster, and venture capitalist',
-            'net_worth': 'Unknown',
+            'net_worth': '$100 million',
             'books': [
                 'F.U. Money: Make As Much Money As You Damn Well Want And Live Your Life As You Damn Well Please!',
                 'Influence!: 47 Forbidden Psychological Tactics You Can Use To Motivate, Influence and Persuade Your Prospect',
@@ -188,7 +173,7 @@ def index():
                 'The Power of Ambition'
             ],
             'youtube': 'Uhttps://www.youtube.com/watch?v=SKHopggBYAw',
-            'image': 'jimrohn.jpg'
+            'image': 'jim.jpg'
         },
         {
             'name': 'Kobe Bryant',
@@ -201,30 +186,30 @@ def index():
             ],
             'twitter': 'https://twitter.com/kobebryant',
             'instagram': 'https://www.instagram.com/kobebryant',
-            'image': 'kobebryant.jpg'  # placeholder for actual path
+            'image': 'kobe.jpg'  # placeholder for actual path
         },
         {
             'name': 'Jose Zuniga',
             'profession': 'Entrepreneur, YouTube content creator',
             'channel': 'Teaching Men’s Fashion',
-            'net_worth': 'Unknown',  # this data is often private
+            'net_worth': '$5 million',  # this data is often private
             'books': [],
             # as of my last training cut-off in September 2021, Jose Zuniga didn't have any published books
             'twitter': 'https://twitter.com/TMFmag',
             'youtube': 'https://www.youtube.com/user/Teachingmensfashion',
             'instagram': 'https://www.instagram.com/teachingmensfashion',
-            'image': 'josezuniga.jpg'  # placeholder for actual path
+            'image': 'jose.jpg'  # placeholder for actual path
         },
         {
             'name': 'Hamza Ahmed',
-            'profession': 'YouTuber, fitness coach, and self-help guru',
-            'net_worth': 'Unknown',  # this data is often private
-            'books': [],
+            'profession': 'Entreprenuer ,self-improvement coach, men fashion ',
+            'net_worth': '$5 million',  # this data is often private
+            'books': ['The way of a superior man'],
             # as of my last training cut-off in September 2021, Hamza Ahmed didn't have any published books
             'twitter': 'https://twitter.com/hamza97ahmed',
             'youtube': 'https://www.youtube.com/c/Hamza97',
             'instagram': 'https://www.instagram.com/hamza97ahmed',
-            'image': 'hamzaahmed.jpg'  # placeholder for actual path
+            'image': 'hamza.jpg'  # placeholder for actual path
         }
         # Add information for other individuals here
     ]
